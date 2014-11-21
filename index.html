@@ -1,0 +1,43 @@
+<html>
+<head>
+	<title>Temperature Converter</title>
+	<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+	<!-- add google font -->
+	<script src="temp_convert.js"></script>
+</head>
+
+<style>
+</style>
+
+<body>
+
+<div class="container text-center">
+	<h1>It's gettin' hot in hurr.</h1>
+<hr>
+<div class="form-inline" role="form">
+  <div class="form-group">
+    <div class="input-group">
+ 		<!-- Input area -->
+      <label class="sr-only" for="exampleInputEmail2">Input Temp</label>
+      <input type="tempInput" class="form-control" id="tmpOrig" placeholder="Enter Temp">
+    </div>
+    	<!-- Submit button -->
+      <button type="submit" class="btn btn-default" id="submit">Convert</button>
+  </div>
+  <div class="form-group">
+  		<!-- Converted temp -->
+    <label class="sr-only" for="exampleInputPassword2">Converted Temp</label>
+    <input type="tempOutput" class="form-control" id="tmpFinal" placeholder="Result">
+	 <button type="clr" class="btn btn-default" id="clear">Clear</button>  
+  </div>
+  <h4>*No degree symbol necessary</h4>
+</div>
+<div class="container">
+	<img src="http://wcdn4.dataknet.com/static/resources/icons/set113/d08a9b33.png">
+</div>
+</div>
+
+</body>
+</html>
